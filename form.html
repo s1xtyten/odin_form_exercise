@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidepanel">
+            <div class="logo">
+                <div class="roller">
+                    <h1 id="logo-text"><span id="rolltext">welcome,<br>hooman!<br>n_n<br>form >>></span></h1>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="header">
+                <h1>hello? yes, this is form.</h1>
+            </div>
+            <div class="form">
+                <form action="#">
+                    <legend>
+                        <h2>Please all of the following stuff to create account:</h2>
+                        <br><br><br>
+                    </legend>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input class="form-control" type="text" name="username" id="username" placeholder="james.bond" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input class="form-control" type="text" name="email" id="email" placeholder="james.bond@spectre.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input class="form-control" type="password" name="password" id="password" placeholder="********" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="passwordRepeat">Repeat Password</label>
+                        <input class="form-control" type="password" name="passwordRepeat" id="passwordRepeat" placeholder="********" required />
+                    </div>
+                    <div class="m-t-lg">
+                        <ul class="list-inline">
+                            <li>
+                              <input class="btn btn--form" type="submit" value="Register" />
+                            </li>
+                            <br>
+                            <li>
+                              <a class="signup__link" href="#">I am already a member</a>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>                      
+                </form>
+            </div>
+            <div class="footer">
+                <h2>But you can also login by clicking here:</h2><br><button class="btn create">Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
